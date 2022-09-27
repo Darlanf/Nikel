@@ -63,7 +63,7 @@ function logout() {
     sessionStorage.removeItem("logged");
     localStorage.removeItem("session");
 
-    window.location.href = "index.html";
+    window.location.href = "../index.html";
 }
 
 function getCashIn() {
